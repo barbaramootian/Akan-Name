@@ -7,6 +7,7 @@
     <title>Akan Name</title>
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./JS/main.js"></script>   
 </head>
 <body>
     <!--nav bar-->
@@ -31,13 +32,14 @@
 
     <div class="container">  
         <h1>Akan Name</h1>
-        <p>This web page help  you ags a user to caluclate the birthday,day of the week one is born and depending on the gender,<br>
-           depending on the day the user enter he or she get to know his Akan name. The Akan names are driven from Ghanian culture. </p>
-        <p>In  Ghana Children are give name depending on the day of  the week they were born .</p>
+        <p>This web page help  you as a user to caluclate the birthday,day of the week one is born and depending on the gender,<br>
+           and on the day the user enter he or she get to know his Akan name. The Akan names are driven from Ghanian culture. </p>
+        <p>In  Ghana Children are give name depending on the day of the week they were born .</p>
+        <p> To  know your Ghanian name fill the form below</p>
         <br>
         <div class="calculation">
             <form  action="#" method="POST">
-                <div class="form"></div>
+                <div class="form" id="form"></div>
                 <label for="dateOfBirth">Date Of Birth<br>
                    <input type="date" name="dateofbirth" id="dateofbirth"><br>
                 </label>
@@ -51,20 +53,23 @@
                 </label>
                 <br>
                 <br>
-                <button onclick="myFunction()">Know your Akan name</button>
+                <input type="submit" value="Know your Akan name" onclick= "return name0fAkan()" >
                 <br>
                 <br>
-                <button onclick="myFunction()"> Clear the input</button>
+                <!-- <button onclick="myFunction()"> Clear the input</button> -->
                 <br>
                 <br>
-                <h6> Congratulation your Akan name will be display below</h6>
+                <h6> Congratulation your Akan name  and day will be display below ::</h6>
                 <br>
             </form> 
+            <div>
+                <ul>
+                    <li id="name"></li>
+                    <li id="day"></li>
+                </ul>
+            </div>
         </div>
-          <br>
-          <br>
-         <br>
-    </div>     
-    
+    </div> 
+    </div> 
 </body>
 </html>
