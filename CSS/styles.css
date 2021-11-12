@@ -1,3 +1,9 @@
-.calculation{
-    background-color: #EDEDED;
+body{
+    background-image: url(./images/ghana_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    background-color: inherit;
 }
