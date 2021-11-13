@@ -12,14 +12,15 @@
     <title>Akan Name</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-info">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./CSS/images/logo.jpeg" alt="" width="80" height="80">
+          <img src="./CSS/images/logo.jpeg" alt="" width="80" height="80" class="d-inline-block align-text-top">
+          Akan Name
         </a>
-      </div>
+      <div>
     </nav>
-    <div class="container">  
+    <div class="container" >  
         <h1>Akan Name</h1>
         <p>This web page help  you as a user to caluclate the birthday,day of the week one is born and depending on the gender,<br>
            and on the day the user enter he or she get to know his Akan name. The Akan names are driven from Ghanian culture. </p>
@@ -37,6 +38,8 @@
                     <div class="mb-4">
                         <input type="text" class="form-control" id="year" placeholder="YY" min="1870" max="2030" required>
                         </div>
+                <span>Selet your Gender:</span>
+                <br>
                 <br>
                 <label for="Male">Male</label>
                 <input type="radio" name="Gender" value="Male"  required>
@@ -44,8 +47,9 @@
                 <input type="radio" name="Gender" value="Female" required>
                 <br>
                 <br>
-               <button type="submit" onclick="Akan()">Know  your Akan Name</button>
-                <br>
+                <button type="submit"  class="btn btn-dark position-relative" onclick="Akan()">Know  your Akan Name 
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+                </button>
                 <br>
                 <!-- <button onclick="myFunction()"> Clear the input</button> -->
                 <br>
