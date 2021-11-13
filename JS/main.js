@@ -1,6 +1,8 @@
  function incorrect(day,month) {
    if (day < 1 || day > 31 || month == 2 && day > 29){
        alert ("Please enter a valid day")
+       day.focus();
+       return false;
    }  
  }
  function Akan() {
