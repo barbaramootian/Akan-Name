@@ -1,9 +1,12 @@
-body{
-    background-image: url(./images/ghana_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+@import url("https://fonts.googleapis.com/css?family=Lobster");
 .container{
-    background-color: inherit;
+    background-color: #9FB6DB;
+    border: 2px solid;
+}
+.footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #9FB6DB;
 }
