@@ -8,3 +8,10 @@ footer{
 body{
     background-color: ivory;
 }
+span{
+    color:#0ECAF0 ;
+    font-size: 15px;
+}
+em{
+    font-size: bold;
+}
