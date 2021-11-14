@@ -24,6 +24,16 @@ if(incorrect(day , month)){
      alert ("You Akan name is: " + getAkan(dayIndex, gender)  + "");
     }
 }
+function clear() {
+  var day = parseInt(document.getElementById("day").value);
+  var month = parseInt(document.getElementById("month").value);
+  var year = parseInt(document.getElementById("year").value);
+  var gender = document.querySelector('input[name="Gender"]:checked').value
+if(incorrect(day , month)){
+   var dayIndex = new Date (year, month -1, day).getDay();
+   alert ("You Akan name is: " + getAkan(dayIndex, gender)  + "");
+  }
+}
 function getAkan(dayIndex, gender){
     var gentleman = ["Kwasi"," Kwadwo", "Kwabena", "Kwaku", " Yaw", "Kofi","Kwame"];
     var lady = [" Akosua", "Adwoa", "Abenaa","Akua"," Yaa"," Afua" ,"Ama"]; 
