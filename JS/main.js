@@ -8,7 +8,7 @@ function incorrect(day, month) {
      alert("Please enter a valid month");
      month.focus();
      return false;
-   }else{
+   }else {
      return true;
    }
  }
@@ -19,15 +19,17 @@ function incorrect(day, month) {
     var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
     var gender = document.querySelector('input[name="Gender"]:checked').value
+    var dateoftheweeks =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+    
 if(incorrect(day , month)){
      var dayIndex = new Date (year, month -1, day).getDay();
-     alert ("You Akan name is: " + getAkan(dayIndex, gender));
+     alert ("You Akan name is: " + getAkan(dayIndex, gender)  +  "You were born at:"  + dateoftheweeks[0]);
     }
 }
 function getAkan(dayIndex, gender){
     var gentleman = ["Kwasi"," Kwadwo", "Kwabena", "Kwaku", " Yaw", "Kofi","Kwame"];
-    var lady = [" Akosua", "Adwoa", "Abenaa","Akua"," Yaa"," Afua" ,"Ama"];
-    // var dateoftheweeks =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];  
-    return gender === "Male" ? gentleman[dayIndex] : lady[dayIndex] ;         
+    var lady = [" Akosua", "Adwoa", "Abenaa","Akua"," Yaa"," Afua" ,"Ama"]; 
+    return gender === "Male" ? gentleman[dayIndex] : lady[dayIndex];         
 }
- 
+
