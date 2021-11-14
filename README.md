@@ -11,7 +11,7 @@ CSS- for web page styling.
 Bootsrap- for frame work.
 JavaScript-To get the functionality of imputs.
 ### Design
-
+https://www.figma.com/file/JIQd6K7uc7SXy8VcuYIhYi/Akan-Name?node-id=3%3A46
 ### Project setup
 To run the project one requires a strong internet connection to view the website because the link is lively.
 ### Live Link
