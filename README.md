@@ -15,7 +15,7 @@ JavaScript-To get the functionality of imputs.
 ### Project setup
 To run the project one requires a strong internet connection to view the website because the link is lively.
 ### Live Link
-
+https://barbaramootian.github.io/Akan-name/
 ### Contact
 Email barbara.mootian@student.moringaschool.com 
 LinkedIn at https://www.linkedin.com/in/barbra-mootian-03132b1a8/
